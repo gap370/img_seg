@@ -15,7 +15,7 @@ def prepareDataset(args, root_dir, data_aug=None, normalize=False):
 	
 	if args.dataset.lower() == 'seg':
 
-		dataset_path = root_dir + 'img_seg/dataset/np_data/partition/partition_data_list/'
+		dataset_path = root_dir + 'img_seg/seg_dataset/np_data/partition/partition_data_list/'
 		
 		train_dataset = SegDataset(dataset_path, split='train', is_norm=normalize)
 		val_dataset = SegDataset(dataset_path, split='validate', is_norm=normalize)
