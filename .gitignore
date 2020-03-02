@@ -1,0 +1,11 @@
+
+__pycache__/
+.DS_Store
+
+checkpoint/
+tb_log/
+log/
+vis_output/
+
+seg_dataset/
+
